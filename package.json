@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/DamonOehlman/pull-ws",
   "dependencies": {
+    "iso-url": "^0.4.4",
     "relative-url": "^1.0.2",
     "safe-buffer": "^5.1.1",
     "ws": "^1.1.0"
@@ -47,5 +48,11 @@
   "testling": {
     "files": "test/all.js",
     "server": "test/server.js"
-  }
+  },
+  "size-limit": [
+    {
+      "path": "index.js",
+      "limit": "9 KB"
+    }
+  ]
 }

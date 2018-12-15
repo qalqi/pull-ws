@@ -13,7 +13,7 @@ tape('map from a relative url to one for this domain', function (t) {
 
   t.equal(
     wsurl('//bar.com', location),
-    'ws://bar.com'
+    'ws://bar.com/'
   )
   t.equal(
     wsurl('/this', location),

@@ -1,8 +1,8 @@
-var rurl = require('relative-url')
+var { relative } = require('iso-url')
 var map = {http:'ws', https:'wss'}
 var def = 'ws'
 module.exports = function (url, location) {
-  return rurl(url, location, map, def)
+  return relative(url, location, map, def)
 }
 
 
