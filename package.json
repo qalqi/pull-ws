@@ -45,6 +45,10 @@
     "ws": false,
     "./server": false
   },
+  "react-native": {
+    "ws": false,
+    "./server": "./server-rn.js"
+  },
   "testling": {
     "files": "test/all.js",
     "server": "test/server.js"
